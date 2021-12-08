@@ -57,11 +57,11 @@ Last change: 3.10.21, Erasmus Bieri
   - Tools > Manage Libraries ...
   - Search for "neopixel
   - Click on Adafruit Neo**Pixel** (not Neo**Matrix**) and install latest version, in picture below version 1.4.0 is installed:
-    ![neopixel-bib01](images/neopixel-bib01.png)
+    ![neopixel-bib01](bilder/neopixel-bib01.png)
 
 - In the **Web Editor**:
   - Links to Libraries > Search Libraries: enter "Neopixel" and install library:
-    ![neopixel-bib02](images/neopixel-bib02.png)
+    ![neopixel-bib02](bilder/neopixel-bib02.png)
   - On the website of Adafruit there is analogue information: https://learn.adafruit.com/adafruit-neopixel-uberguide/arduino-library-installation
 
 ## Example programs
@@ -81,7 +81,7 @@ Comments to the programs are **directly in the program code**. And answers to th
 
 ### Programme 1: Make a green pixel glow ...
 
-* Link to the programme file: [Neopixelstrip01.ino](programmes/Neopixelstrip01/Neopixelstrip01.ino)
+* Link to the programme file: [Neopixelstrip01.ino](programme/Neopixelstreifen01/Neopixelstreifen01.ino)
 * **Task:** (The solutions can be found at the very [end](#solutions-tasks-example-programs) of this section)
   Modify the command `pixels.setPixelColor(3, pixels.Color(0, 10, 0));` so that:
   * the LED at the **2nd ** position is green.
@@ -94,7 +94,7 @@ Comments to the programs are **directly in the program code**. And answers to th
 
 ### Programme 2: Make several pixels light up ...
 
-* Link to the programme file: [Neopixelstrip02.ino](programmes/Neopixelstrip02/Neopixelstrip02.ino)
+* Link to the programme file: [Neopixelstrip02.ino](programme/Neopixelstreifen02/Neopixelstreifen02.ino)
 * **Task:** (The solutions can be found at the very [end](#solutions-tasks-example-programmes) of this section).
   * If you want to play around with additive RGB colour mixing: http://spectrumcolors.de/cor_rgb_demo.php
   * How do you mix light blue (= cyan) or pink (= magenta)?
@@ -103,7 +103,7 @@ Comments to the programs are **directly in the program code**. And answers to th
 
 ### Programme 3: for loop
 
-* Link to the programme file: [Neopixelstreifen03.ino](programmes/Neopixelstreifen03/Neopixelstreifen03.ino)
+* Link to the programme file: [Neopixelstreifen03.ino](programme/Neopixelstreifen03/Neopixelstreifen03.ino)
 * **Task:** (The solutions can be found at the very [end](#solutions-tasks-example-programmes) of this section).
   * Modify the program so that the chaser does not run in only one direction, but goes back and forth.
 
@@ -111,18 +111,18 @@ Comments to the programs are **directly in the program code**. And answers to th
 
 ### Programme 4: Pulsating LEDs
 
-* The following programme results in pulsating flashing lights. Link to the programme file: [Neopixelstreifen04a.ino](programmes/Neopixelstreifen04a/Neopixelstreifen04a.ino).
+* The following programme results in pulsating flashing lights. Link to the programme file: [Neopixelstreifen04a.ino](programme/Neopixelstreifen04a/Neopixelstreifen04a.ino).
 
 We can modify it a little and programme a pulsating chaser. In this case, the different LEDs should pulsate **time-delayed**.
 One way to shift the variable i a little is to divide it with remainder: 4 % 30 is the integer remainder when you divide 4 by 30: This is 4. Thus 29 % 30 = 29 and 30 % 30 = 0 and 31 % 30 = 1....
 
-This can be used to programme a pulsating chaser: [Neopixelstreifen04b.ino](programmes/Neopixelstreifen04b/Neopixelstreifen04b.ino)
+This can be used to programme a pulsating chaser: [Neopixelstreifen04b.ino](programme/Neopixelstreifen04b/Neopixelstreifen04b.ino)
 
 
 
 ### Programme 5: Random Colour
 
-In the following programme, colour and position are selected randomly. Link to the programme file: [Neopixelstrip05.ino](programmes/Neopixelstrip05/Neopixelstrip05.ino)
+In the following programme, colour and position are selected randomly. Link to the programme file: [Neopixelstrip05.ino](programme/Neopixelstrip05/Neopixelstrip05.ino)
 
 **Task
 
